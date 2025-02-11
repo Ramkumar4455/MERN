@@ -7,7 +7,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const MONGO_URI = "mongodb+srv://ramkumar007xx:Ram%402003@cluster0.sdt7g.mongodb.net/Blogs"; // Local MongoDB connection
+const MONGO_URI = "mongodb+srv://ramkumar007xx:Ram%402003@cluster0.sdt7g.mongodb.net/Blogs"; 
 
 mongoose.connect(MONGO_URI)
   .then(() => console.log("MongoDB Connected Locally"))
